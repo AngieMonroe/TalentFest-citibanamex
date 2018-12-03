@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.2c80afc0.chunk.css",
-  "main.js": "/static/js/main.873d43ea.chunk.js",
-  "main.js.map": "/static/js/main.873d43ea.chunk.js.map",
-  "static/js/1.daba63f6.chunk.js": "/static/js/1.daba63f6.chunk.js",
-  "static/js/1.daba63f6.chunk.js.map": "/static/js/1.daba63f6.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.2c80afc0.chunk.css.map": "/static/css/main.2c80afc0.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.27443a42fedb60a8cf307f0c27d49def.js": "/precache-manifest.27443a42fedb60a8cf307f0c27d49def.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/TalentFest-citibanamex/static/css/main.2c80afc0.chunk.css",
+  "main.js": "/TalentFest-citibanamex/static/js/main.d3360329.chunk.js",
+  "main.js.map": "/TalentFest-citibanamex/static/js/main.d3360329.chunk.js.map",
+  "static/js/1.daba63f6.chunk.js": "/TalentFest-citibanamex/static/js/1.daba63f6.chunk.js",
+  "static/js/1.daba63f6.chunk.js.map": "/TalentFest-citibanamex/static/js/1.daba63f6.chunk.js.map",
+  "runtime~main.js": "/TalentFest-citibanamex/static/js/runtime~main.cd08423f.js",
+  "runtime~main.js.map": "/TalentFest-citibanamex/static/js/runtime~main.cd08423f.js.map",
+  "static/css/main.2c80afc0.chunk.css.map": "/TalentFest-citibanamex/static/css/main.2c80afc0.chunk.css.map",
+  "index.html": "/TalentFest-citibanamex/index.html",
+  "precache-manifest.82664478a0233222b40d1ad327015b26.js": "/TalentFest-citibanamex/precache-manifest.82664478a0233222b40d1ad327015b26.js",
+  "service-worker.js": "/TalentFest-citibanamex/service-worker.js"
 }
