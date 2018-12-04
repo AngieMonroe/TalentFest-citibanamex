@@ -1,44 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tus Finanzas Digitales
 
-## Available Scripts
 
-In the project directory, you can run:
+## El Reto
 
-### `npm start`
+Generar una aplicación enfocada en administrar suscripciones con pagos recurrentes (Ej. Netflix, HBO Go, Prime, etc.). Debe de estar enfocada en alertar acerca de los cambios en las tarifas de los servicios, así como de las facturas con tarifas muy altas con la intención de evitar que se gaste dinero de más en servicios con tarifas no competitivas, así como el olvido de los “free trials” (gratis por un mes pero al siguiente si no cancelas cobran). 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### CARACTERÍSTICAS TÉCNICAS
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+* SPA con React o Angular
+* Database <opcional>
+* Repositorio público en Github con el proyecto y la documentación. 
+* Dependiendo del proyecto deberás crear un Login con OAuth
+* Automatización de tareas, puedes usar grunt, gulp, bower o webpack
+* npm
+* Bootstrap 4/material design
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problemática
 
-### `npm run build`
+Los gastos digitales, como los servicios de video, música, series y películas por streaming o membresías de juegos virtuales son una gran fuga de dinero casi imperceptible para algunas personas.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+De acuerdo al Instituto Nacional de Estadística y Geografía (Inegi), el gasto hormiga (aquellas salidas de dinero casi imperceptibles en su monto) representan entre 9 y 12% del ingreso de una persona.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Cuando un usuario descarga aplicaciones o contrata membresías muchas veces pierde de vista cuánto está pagando por ellas mensualmente. Es fácil perder la cuenta porque al descargarlas piden registrar una tarjeta de crédito, de la cual, cuando se acabe el periodo de prueba gratuito, comenzarán a cobrar.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Estos olvidos generan múltiples molestias en los usuarios y terminan afectando su economía. 
 
-### `npm run eject`
+## Investigación
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A través de entrevistas logramos indagar sobre las motivaciones y necesidades de usuarios cuentahabientes de Citibanamex obteniéndo información de valor que nos ayudó a brindar una solución que pudiera resolver sus dolencias respecto a la administración de suscripciones y pagos recurrentes de servicios.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![entrevistas](./src/images/servicios.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Planeación
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Bajo una metodología agil y un sprint planning el equipo de Frontend y UX logramos plantear el MVP y la propuesta de valor que diferenciará a nuestro desarrollo.
 
-## Learn More
+![prpceso de planeación](./src/images/planeacion.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Propuesta de valor
+Integramos dentro de la app de Citibanamex la sección de "Tus Finanzas Digitales" Para ayudar a los cuentahabientes a identificar sus gastos digitales y administrar suscripciones y pagos recurrentes, evitando olvidos y manteniéndolo al tanto de  facturas con tarifas muy altas con la intención de evitar que se gaste dinero de más en servicios con tarifas no competitivas, así como el olvido de los “free trials que no da de baja a tiempo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Visualización más eficiente sus gastos permitiéndole categorizarlos por necesarios y deseados, con ello logramos que el usuario tome deciciones que ayuden a mejorar sus finanzas personales.
+
+Al cubrir sus pagos de suscripciones les genera puntos premia y si no sabes hacer con tus puntos premia vas a tener la posibilidad de pagar tus servicios con tus puntos.
+
+El hecho de que el usuario clasifique sus datos, genera data atractiva para los vendors que puede ser utilizada para realizar venta cruzada.
+
+## Ideación y Wireframes
+
+
+## Prototipo de Alta fidelidad
+![proceso de planeación](./src/images/sketch.png)
+
+[link de presentación](https://docs.google.com/presentation/d/1hCC97XOYwBAHMIG81NWlnF0G94NoJ9TXyyNGo5cxBks/edit?usp=sharing)
+
+[link de prototipo](https://www.figma.com/proto/TGRGz1Zmia2TY4IUs7wWAxEG/Citi-Banamex-Talen-Fest?node-id=0%3A1&scaling=scale-down)
+
+

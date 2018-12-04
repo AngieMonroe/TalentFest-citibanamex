@@ -1,39 +1,38 @@
 import React, {Component} from 'react'
 import { Fa, Col, Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
-import './Service.css';
 
 
-class SusOne extends Component{
+class SerOne extends Component{
     constructor(props){
         super(props)
         this.return = this.return.bind(this)
     }
     return(){
-        this.props.history.push('/monthly')
+        this.props.history.push('/monthlyservice')
     }
 
     render(){
         return (
         <div>
-                <nav className="navbar">
-                <span className="navbar-brand mb-0 h1"><Fa icon="arrow-left" size="1x" onClick={this.return}/> Suscripción</span>
+                <nav className="navbar ">
+                <span className="navbar-brand mb-0 h1"><Fa icon="arrow-left" size="1x" onClick={this.return}/> Servicio</span>
                 </nav>
                 <Col className="mt-5">
                     <Card style={{ width: "22rem" }}>
                     <CardImage
                         className="img-fluid"
-                        src="https://user-images.githubusercontent.com/27248841/49445591-e215c500-f797-11e8-9031-011f6e66283c.png"
+                        src="https://user-images.githubusercontent.com/27248841/49445522-b4308080-f797-11e8-9ee9-ca1cceb29043.png"
                         waves
                     />
                     <CardBody>
-                        <CardTitle>Spotify</CardTitle>
+                        <CardTitle>CFE</CardTitle>
                         <CardText>
-                        <p>Monto: $200.00</p>
-                        <p>Periodicidad: mensual</p>
-                        <p>Fecha de pago: Periodo de prueba</p>
-                        <p>Tipo de gasto: Deseo</p>
+                        <p>Monto: $500.00</p>
+                        <p>Periodicidad: Bimestral</p>
+                        <p>Fecha de pago: 2018-07-12</p>
+                        <p>Tipo de gasto: Necesidad</p>
                         </CardText>
-                        <Button href="#">Editar</Button>
+                        <Button  href="#">Editar</Button>
                     </CardBody>
                     </Card>
                 </Col>
@@ -41,4 +40,4 @@ class SusOne extends Component{
     )}
 }
 
-export default SusOne;
+export default SerOne;

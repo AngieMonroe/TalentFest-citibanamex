@@ -1,12 +1,15 @@
 import React, {Component} from 'react'
 import { Chart } from 'react-chartjs-2';
 import { Container, Progress, Fa } from 'mdbreact';
+import './Finance.css';
+import FooterApp from './FooterApp';
 
 class Finance extends Component{
     constructor(props){
         super(props)
-        this.return = this.return.bind(this)
-        this.subscriptions = this.subscriptions.bind(this)
+        this.return = this.return.bind(this);
+        this.subscriptions = this.subscriptions.bind(this);
+        this.services = this.services.bind(this);
     }
     return(){
         this.props.history.push('/Home')
@@ -14,6 +17,10 @@ class Finance extends Component{
 
     subscriptions(){
         this.props.history.push('/subscriptions')
+    }
+
+    services(){
+        this.props.history.push('/service')
     }
     
     componentDidMount() {
@@ -26,7 +33,7 @@ class Finance extends Component{
                 datasets: [
                     {
                         data: [ 300, 100, 50 ],
-                        backgroundColor: [ "#F7464A", "#46BFBD", "#FDB45C" ],
+                        backgroundColor: [ "#ee3123", "#46BFBD", "#FDB45C" ],
                         hoverBackgroundColor: [ "#FF5A5E", "#5AD3D1", "#FFC870" ]
                     }
                 ]
@@ -39,20 +46,20 @@ class Finance extends Component{
     render(){
         return (
             <div>
-                <nav className="navbar navbar-light bg-light">
+                <nav className="navbar">
                 <span className="navbar-brand mb-0 h1"><Fa icon="arrow-left" size="1x" onClick={this.return}/> Tus Finanzas</span>
                 </nav>
-                <div className="row mt-5 text-center">
+                <div className="row mt-4 text-center">
                 <div className= "col-6">
-                    <p>Total</p>
+                    <p className="h4">Total</p>
                 </div>
                 <div className= "col-6">
-                    <p>$100</p>
+                    <p className="h4">$1,000.00</p>
                 </div>
                 </div>
                 <div className="row mt-2 text-center">
                 <div className= "col-4">
-                    <p>Necesarios</p>
+                    <p>Necesidad</p>
                     <p>$300</p>
                 </div>
                 <div className= "col-4">
@@ -66,18 +73,19 @@ class Finance extends Component{
                 </div> 
                 <Container className="mt-2">
                 <canvas id='pieChart'></canvas>
-                </Container>
+                </Container> 
                 <div className="container">
                 <p className="mt-4 font-weight-bold" onClick={this.subscriptions} >Suscripciones</p>
                 <Progress  className="mt-3" value={50}></Progress>
-                <span className="col-6">Necesarios</span>   <span className="col-6 text-right">Deseos</span>
-                <p className="mt-4 font-weight-bold">Servicios</p>
+                <span className="col-6"><i class="fas fa-star mr-2"></i>Necesidad</span>   <span className="col-6 text-right"> <i class="fas fa-heart mr-2"></i>Deseo</span>
+                <p className="mt-4 font-weight-bold" onClick={this.services}>Servicios</p>
                 <Progress  className="mt-3" value={40}></Progress>
-                <span className="col-6">Necesarios</span>   <span className="col-6">Deseos</span>
+                <span className="col-6"> <i class="fas fa-star mr-2"></i>Necesidad</span>   <span className="col-6"> <i class="fas fa-heart mr-2"></i>Deseo</span>
                 <p className="mt-4 font-weight-bold">Otros</p>
                 <Progress  className="mt-3" value={10}></Progress>
-                <span className="col-6">Necesarios</span>   <span className="col-6">Deseos</span>
+                <span className="col-6"> <i class="fas fa-star mr-2"></i>Necesidad</span>   <span className="col-6"> <i class="fas fa-heart mr-2"></i>Deseo</span>
                 </div>
+                <FooterApp />
             </div>
         )
     }

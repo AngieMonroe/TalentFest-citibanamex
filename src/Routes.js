@@ -11,11 +11,18 @@ import Others from './components/Others';
 import Service from './components/Service';
 import Subscriptions from './components/Subscriptions';
 import SusOne from './components/SusOne';
+import Monthlyservice from './components/Monthlyservice';
+import SerOne from './components/SerOne';
+import Notificationspush from './components/Notifications2';
+
 
 
 const Routes = () => {
     return(
         <Switch >
+            <Route exact path="/Notificationspush" component={Notificationspush} />
+            <Route exact path="/serone" component={SerOne} />
+            <Route exact path="/monthlyservice" component={Monthlyservice} />
             <Route exact path="/product" component={SusOne} />
             <Route exact path="/annual" component={Annual} />
             <Route exact path="/monthly" component={Monthly} />

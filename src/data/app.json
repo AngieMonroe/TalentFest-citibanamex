@@ -1,0 +1,100 @@
+{
+  "Usuario" : [ {
+    "nombre" : "Arturo Robles Maloof",
+    "noclient" : 123,
+    "debito" : 100,
+    "credito": 500,
+    "puntos": 100
+  }],
+  
+  "Services" : [ {
+    "nombre" : "CFE",
+    "url": "https://user-images.githubusercontent.com/27248841/49445522-b4308080-f797-11e8-9ee9-ca1cceb29043.png",
+    "type" : "bimestral",
+    "costo" : "$500.00",
+    "porcentaje": "33%",
+    "por": 33,
+    "pago" : "2018-07-12",
+    "estatus": "Necesidad",
+    "icon": "star",
+    "id": 1
+  }, {
+    "nombre" : "Telcel",
+    "url": "https://user-images.githubusercontent.com/27248841/49445606-ec37c380-f797-11e8-9e14-1134f0a55297.png",
+    "type" : "mensual",
+    "costo" : "$400.00",
+    "porcentaje": "26%",
+    "por": 26,
+    "pago" : "2018-07-11",
+    "estatus": "Necesidad",
+    "icon": "star",
+    "id": 2
+  }, {
+    "nombre" : "TV de paga",
+    "url": "https://user-images.githubusercontent.com/27248841/49445491-a2e77400-f797-11e8-9d46-384a36259e1e.png",
+    "type" : "mensual",
+    "costo" : "$100.00",
+    "porcentaje": "6%",
+    "por": 6,
+    "pago" : "2018-04-11",
+    "estatus": "Deseo",
+    "icon": "heart",
+    "id": 3
+  }, {
+    "nombre" : "Internet",
+    "url": "https://user-images.githubusercontent.com/27248841/49445568-d4f8d600-f797-11e8-8f0c-e2c30cc5ce0c.png",
+    "type" : "mensual",
+    "costo" : "$500.00",
+    "porcentaje": "33%",
+    "por": 33,
+    "pago" :"2018-05-11",
+    "estatus": "Necesidad",
+    "icon": "star",
+    "id": 4
+  } ],
+"Subscriptions" : [ {
+    "nombre" : "Spotify",
+    "url": "https://user-images.githubusercontent.com/27248841/49445591-e215c500-f797-11e8-9031-011f6e66283c.png",
+    "type" : "prueba",
+    "costo" : "$200.00",
+    "porcentaje": "36%",
+    "por": 36,
+    "pago" : "2018-07-21",
+    "estatus": "Deseo",
+    "icon": "heart",
+    "id": 5
+  }, {
+    "nombre" : "Netflix",
+    "url": "https://user-images.githubusercontent.com/27248841/49445540-c27e9c80-f797-11e8-8c88-3ee7725da4f6.png",
+    "type" : "mensual",
+    "costo" : "$0.00",
+    "pago" :"2018-07-13",
+    "porcentaje": "0%",
+    "por": 0,
+    "estatus": "Necesidad",
+    "icon": "star",
+    "id": 6
+  }, {
+    "nombre" : "Amazon",
+    "url": "https://user-images.githubusercontent.com/27248841/49445453-919e6780-f797-11e8-8d64-efdbc9b8e001.png",
+    "type" : "mensual",
+    "costo" : "$100.00",
+    "porcentaje": "18%", 
+    "por": 18, 
+    "pago" : "2018-03-11",
+    "estatus": "Necesidad",
+    "icon": "star",
+    "id": 7
+  }, {
+    "nombre" : "Xbox",
+    "url": "https://user-images.githubusercontent.com/27248841/49445300-3d938300-f797-11e8-9441-be52ebc85ded.png",
+    "type" : "anual",
+    "costo" : "$250.00",
+    "porcentaje": "45%",
+    "por": 45,
+    "pago" :"2018-01-04",
+    "estatus": "Deseo",
+    "icon": "heart",
+    "id": 8
+  } ]
+}

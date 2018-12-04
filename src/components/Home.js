@@ -4,6 +4,7 @@ import Clasica from '../images/clasica.png';
 import Bsmart from '../images/bsmart.png';
 import './Home.css';
 import FooterApp from './FooterApp';
+import Notifications from './Notifications';
 
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
     <div class="container">
   <div class="row" >
       <div class="col-sm pt-3" >
-    <h3 class="letter-white">¡Hola Arturo!</h3>
+    <strong className="titule text-white mr-5">¡Hola Arturo!</strong>  <span class="bell"> <Notifications/></span> 
     </div>
  </div>
  <div class="row">
@@ -27,7 +28,7 @@ const Home = () => {
  </div>
  <div class="row">
     <div class="col-sm">
-    <h7 class="letter-white">Tarjetas de crédito **23</h7>
+    <h7 class="letter-white">Tarjetas de crédito </h7>
     <div class="card">
   <div class="card-body">
   <img width="100"  className="img-fluid" src={Clasica} alt="logo" /> <span>Tarj Clásica **234</span>

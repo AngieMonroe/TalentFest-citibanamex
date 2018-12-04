@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from 'react-router-dom';
-import { Container, Footer } from "mdbreact";
+import { Container, Footer, Fa } from "mdbreact";
 import './FooterApp.css';
 
 
@@ -26,10 +26,10 @@ return (
     <div class="row mt-1">
     <div class="col-sm">
     
-    <div class="icon-fin"><span className="d-ínline mr-5  "><i class="fas fa-sync fa-2x"></i><p class="pt-3">Transfer</p></span></div>
-    <div class="icon-fin"><span className="d-ínline mr-5 "><i class="fas fa-dollar-sign fa-2x"></i><p class="pt-3">Pagar</p></span></div>
-    <div class="icon-fin"> <span className="d-ínline mr-5 "><i class="fas fa-chart-line fa-2x"></i><p class="pt-3">Invertir</p></span></div>
-    <div class="icon-fin"><span className="d-ínline mr-5  " onClick={this.finanzas}><i class="fas fa-chess-queen fa-2x"></i><p class="pt-3">Finanzas</p></span></div>
+    <div class="icon-fin"><span className="d-ínline mr-5  "><i className="fas fa-sync fa-2x"></i><p class="pt-3">Transfer</p></span></div>
+    <div class="icon-fin"><span className="d-ínline mr-5 "><i className="fas fa-dollar-sign fa-2x"></i><p class="pt-3">Pagar</p></span></div>
+    <div class="icon-fin"> <span className="d-ínline mr-5 "><i className="fas fa-chart-line fa-2x"></i><p class="pt-3">Invertir</p></span></div>
+    <div class="icon-fin"><span className="d-ínline mr-5  " onClick={this.finanzas}><Fa icon="money" size="2x"></Fa><p class="pt-3">Finanzas</p></span></div>
     </div>
     
  </div>
@@ -39,7 +39,6 @@ return (
 );
 }
 }
-
 
 export default withRouter(FooterApp);
 
