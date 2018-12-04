@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "94998475f6aea65f558494802416c1cf",
-    "url": "/TalentFest-citibanamex/static/media/Roboto-Thin.94998475.ttf"
+    "revision": "69f8a0617ac472f78e45841323a3df9e",
+    "url": "/TalentFest-citibanamex/static/media/Roboto-Light.69f8a061.woff2"
   },
   {
-    "revision": "f9d7dda8d6ce9b9746c6",
+    "revision": "f8ec1b40c073a8fb4d1c",
     "url": "/TalentFest-citibanamex/static/css/main.b4414afa.chunk.css"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/TalentFest-citibanamex/static/media/bsmart.8e472aad.png"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/TalentFest-citibanamex/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/TalentFest-citibanamex/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/TalentFest-citibanamex/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/TalentFest-citibanamex/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "954bbdeb86483e4ffea00c4591530ece",
-    "url": "/TalentFest-citibanamex/static/media/Roboto-Thin.954bbdeb.woff2"
-  },
-  {
     "revision": "dfe56a876d0282555d1e2458e278060f",
     "url": "/TalentFest-citibanamex/static/media/Roboto-Thin.dfe56a87.eot"
+  },
+  {
+    "revision": "954bbdeb86483e4ffea00c4591530ece",
+    "url": "/TalentFest-citibanamex/static/media/Roboto-Thin.954bbdeb.woff2"
   },
   {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/TalentFest-citibanamex/static/media/Roboto-Light.a990f611.eot"
   },
   {
-    "revision": "f9d7dda8d6ce9b9746c6",
-    "url": "/TalentFest-citibanamex/static/js/main.f9d7dda8.chunk.js"
+    "revision": "f8ec1b40c073a8fb4d1c",
+    "url": "/TalentFest-citibanamex/static/js/main.f8ec1b40.chunk.js"
   },
   {
-    "revision": "69f8a0617ac472f78e45841323a3df9e",
-    "url": "/TalentFest-citibanamex/static/media/Roboto-Light.69f8a061.woff2"
+    "revision": "94998475f6aea65f558494802416c1cf",
+    "url": "/TalentFest-citibanamex/static/media/Roboto-Thin.94998475.ttf"
   },
   {
     "revision": "3b813c2ae0d04909a33a18d792912ee7",
@@ -112,20 +112,20 @@ self.__precacheManifest = [
     "url": "/TalentFest-citibanamex/static/media/Roboto-Medium.574fd0b5.woff2"
   },
   {
-    "revision": "fc78759e93a6cac50458610e3d9d63a0",
-    "url": "/TalentFest-citibanamex/static/media/Roboto-Medium.fc78759e.woff"
-  },
-  {
     "revision": "ecdd509cadbf1ea78b8d2e31ec52328c",
     "url": "/TalentFest-citibanamex/static/media/Roboto-Bold.ecdd509c.eot"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/TalentFest-citibanamex/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "fc78759e93a6cac50458610e3d9d63a0",
+    "url": "/TalentFest-citibanamex/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
     "url": "/TalentFest-citibanamex/static/media/Roboto-Bold.39b2c303.woff2"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/TalentFest-citibanamex/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/TalentFest-citibanamex/static/css/1.5fd4562c.chunk.css"
   },
   {
-    "revision": "8467f9087465aebe06ffe4c72104f7ea",
+    "revision": "83b3d660ca2a59d7de1c60cbc1fb59d4",
     "url": "/TalentFest-citibanamex/index.html"
   }
 ];
