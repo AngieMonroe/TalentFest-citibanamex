@@ -32,7 +32,7 @@ class Suscriptions extends Component{
                 </nav>
                 <div className="container mt-4">
                 <p className="d-inline col-4 font-weight-bold h1">Total</p>
-                <p className="d-inline col-4 mr-5 font-weight-bold h1">$1,500.00</p>
+                <p className="d-inline col-4 mr-5 font-weight-bold h1">$1,450.00</p>
                 </div>
                 <div className="row mt-4 text-center">
                 <div className= "col-12">
