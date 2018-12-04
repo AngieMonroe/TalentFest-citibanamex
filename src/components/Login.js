@@ -27,9 +27,10 @@ signup(e){
           <p>
           <h3 class="text-left text-white">Bienvenido de nuevo</h3>
           </p> 
-          <p> 
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Número de cliente"></input>
+          <p>
+          <h4 class="text-left text-white">A****R***M****</h4>
           </p> 
+          
           <p> 
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña"></input>
           </p> 

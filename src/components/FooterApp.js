@@ -1,37 +1,45 @@
-import React,{Component} from "react";
+import React from "react";
 import { withRouter } from 'react-router-dom';
-import { Col, Container, Footer, Button } from "mdbreact";
+import { Container, Footer } from "mdbreact";
+import './FooterApp.css';
 
 
-class FooterApp extends Component {
+class FooterApp extends React.Component {
+ 
   constructor(props){
-    super(props)
-    this.finance = this.finance.bind(this)
-  }
-  finance(){
-    this.props.history.push('/finance')
-}
+    super(props);
+    this.finanzas = this.finanzas.bind(this); 
+    }
+
+    finanzas(e){
+      this.props.history.push('/finance')
+    }
+
+
 
 render() {
 return (
-<Footer  className="font-small pt-4 mt-4">
-  <Container fluid className="text-center text-md-left">
-      <Col className="col-6" sm="3" md="3">
-      <Button className="btn display inline" id="transferencia" color="primary" > <i class="fas fa-sync-alt">Transfer</i></Button>
-      </Col>
-      <Col className="col-6" sm="3" md="3">
-      <Button className="btn display-inline" id="pagos" color="primary" ><i class="fas fa-money-check-alt">Pagos</i> </Button>
-      </Col>
-      <Col className="col-6" sm="3" md="3">
-      <Button className="btn display-inline" id="invertir"color="primary"><i class="fas fa-chart-line">Invertir</i></Button>
-      </Col>
-      <Col className="col-6"sm="3" md="3">
-      <Button className="btn display-inline" id="suscripcion" color="primary" onClick={this.finance}><i class="fas fa-chess-queen">Tus Finanzas</i></Button>
-      </Col>   
-  </Container>
+<Footer   className="font-small pt-4 mt-4">
+ 
+  <div  id="footer" className="footer-copyright text-center py-3 ">
+    <Container fluid>
+    <div class="row mt-1">
+    <div class="col-sm">
+    
+    <div class="icon-fin"><span className="d-ínline mr-5  "><i class="fas fa-sync fa-2x"></i><p class="pt-3">Transfer</p></span></div>
+    <div class="icon-fin"><span className="d-ínline mr-5 "><i class="fas fa-dollar-sign fa-2x"></i><p class="pt-3">Pagar</p></span></div>
+    <div class="icon-fin"> <span className="d-ínline mr-5 "><i class="fas fa-chart-line fa-2x"></i><p class="pt-3">Invertir</p></span></div>
+    <div class="icon-fin"><span className="d-ínline mr-5  " onClick={this.finanzas}><i class="fas fa-chess-queen fa-2x"></i><p class="pt-3">Finanzas</p></span></div>
+    </div>
+    
+ </div>
+    </Container>
+  </div>
 </Footer>
 );
 }
 }
 
+
 export default withRouter(FooterApp);
+

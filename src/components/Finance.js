@@ -6,9 +6,14 @@ class Finance extends Component{
     constructor(props){
         super(props)
         this.return = this.return.bind(this)
+        this.subscriptions = this.subscriptions.bind(this)
     }
     return(){
         this.props.history.push('/Home')
+    }
+
+    subscriptions(){
+        this.props.history.push('/subscriptions')
     }
     
     componentDidMount() {
@@ -63,7 +68,7 @@ class Finance extends Component{
                 <canvas id='pieChart'></canvas>
                 </Container>
                 <div className="container">
-                <p className="mt-4 font-weight-bold">Suscripciones</p>
+                <p className="mt-4 font-weight-bold" onClick={this.subscriptions} >Suscripciones</p>
                 <Progress  className="mt-3" value={50}></Progress>
                 <span className="col-6">Necesarios</span>   <span className="col-6 text-right">Deseos</span>
                 <p className="mt-4 font-weight-bold">Servicios</p>
