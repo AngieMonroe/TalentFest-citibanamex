@@ -18,8 +18,8 @@ const Routes = () => {
             <Route exact path="/others" component={Others} />
             <Route exact path="/subscriptions" component={Subscriptions} />
             <Route exact path="/service" component={Service} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Login} />
+            <Route exact path="/Home" component={Home} />
         </Switch>
     )
 }

@@ -1,9 +1,15 @@
 import React, {Component} from 'react'
 import { Chart } from 'react-chartjs-2';
 import { Container, Progress, Fa } from 'mdbreact';
-import Data from './Data';
 
 class Finance extends Component{
+    constructor(props){
+        super(props)
+        this.return = this.return.bind(this)
+    }
+    return(){
+        this.props.history.push('/Home')
+    }
     
     componentDidMount() {
         // Pie chart
@@ -29,7 +35,7 @@ class Finance extends Component{
         return (
             <div>
                 <nav className="navbar navbar-light bg-light">
-                <span className="navbar-brand mb-0 h1"><Fa icon="arrow-left" size="1x"/> Tus Finanzas</span>
+                <span className="navbar-brand mb-0 h1"><Fa icon="arrow-left" size="1x" onClick={this.return}/> Tus Finanzas</span>
                 </nav>
                 <div className="row mt-5 text-center">
                 <div className= "col-6">
@@ -67,7 +73,6 @@ class Finance extends Component{
                 <Progress  className="mt-3" value={10}></Progress>
                 <span className="col-6">Necesarios</span>   <span className="col-6">Deseos</span>
                 </div>
-                <Data />
             </div>
         )
     }
